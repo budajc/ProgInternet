@@ -1,0 +1,13 @@
+1) html é uma linguagem de marcação, que sendo assim difere de outras linguagens como java, c# e c++, porque o html não possoui laços de repetição e variaveis como as outra linguagens.
+
+2) 
+
+<html>
+	<body>
+		<h1>Hello World!<\h1>
+	<\body>
+<\html>
+
+3) as tag no html são definadas com os caracteres <>, um exemplo é a tag <h1> que é usada para definir um titulo de um texto, outro é a tag <br> que é usada para pular 1 linha do texto.
+
+4) no html 5 não se faz necessário o uso do doctype, diferente do html 4 que é necessário
