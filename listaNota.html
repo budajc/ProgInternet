@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="basic.css" rel="Stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body id="listaNota">
+
+    <form id="voltar">
+        <input type="button" id="btnVolta" value="Voltar" onclick="voltar()">
+    </form>
+
+    <h1 style="text-align: center; top: 100px; position: relative;">Lista de Notas</h1>
+    
+    <form id="dark">
+        <input type="button" id="btnDark" value="Dark Mode" onclick="modoEscuro()">
+        <input type="button" id="btnlight" value="Light Mode" onclick="modoClaro()">
+    </form>
+
+    <form id="form" >
+        <input type="text" name="nome" id="nomelista" placeholder="nome"><br>
+        <input type="number" name="cpf" id="cpflista" placeholder="cpf"><br>
+        <input type="number" name="nota" id="notalista" placeholder="nota"><br>
+        <input type="email" name="email" id="emaillista" placeholder="email"><br><br>
+        <input type="button" value="anterior" id="btnAnt" onclick="anterior()">
+        <input type="button" value="proximo" id="btnProx" onclick="proximo()">
+        <input type="button" value="excluir" id="btnExc" onclick="excluir()">
+        <input type="button" value="atualiza" id="btnAtu" onclick="atualiza()">
+    </form>
+
+    <script type="text/javascript" src="Crud.js"></script>
+</body>
+</html>
